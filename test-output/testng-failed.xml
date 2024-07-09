@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="group_Of_TestCases.groups">
+        <methods>
+          <include name="ProductReviewTest"/>
+          <include name="VerifyHomePageLoads"/>
+          <include name="UpdateCartTest"/>
+          <include name="VerifyRegisteredUserCheckout"/>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="SearchBox_Functionality"/>
+          <include name="TestWishlistFunctionality"/>
+          <include name="cloe_Browser"/>
+          <include name="close_Browser"/>
+          <include name="VerifyOrderHistory"/>
+          <include name="Browser_Setup"/>
+          <include name="verifyProceedToCheckout"/>
+          <include name="FilterByCategory"/>
+          <include name="verifyGuestCheckout"/>
+          <include name="verifyLoginWithInValidCredentials"/>
+          <include name="ViewCartTest"/>
+          <include name="VerifySortingFunctionalityByPrice"/>
+          <include name="VerifyProductComparison"/>
+          <include name="VerifyFilterBySize"/>
+          <include name="VerifyProductDetailsPage"/>
+          <include name="VerifyPasswordResetFunctionality"/>
+          <include name="VerifyOrderConfirmationPage"/>
+          <include name="Create_Account"/>
+          <include name="verifyNoResultsForInvalidQueries" invocation-numbers="0 1 2"/>
+          <include name="VerifyFilterByColor"/>
+          <include name="verifyPaymentGatewayIntegration"/>
+          <include name="RemoveProductFromCart"/>
+        </methods>
+      </class> <!-- group_Of_TestCases.groups -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
